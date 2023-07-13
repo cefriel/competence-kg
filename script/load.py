@@ -4,7 +4,7 @@ from neo4j import GraphDatabase
 # end::import[]
 
 
-uri = "neo4j://localhost:7687"
+uri = "neo4j://corso-kg-neo4j:7687"
 
 """
 Example Authentication token.
@@ -31,7 +31,7 @@ from os import listdir
 from os.path import abspath, basename, isfile, join, dirname
 
 local_folder = dirname(abspath(__file__))
-import_path = join(local_folder, "../data")
+import_path = join(local_folder, "data")
 
 # tag::driver.session[]
 with driver.session() as session:
@@ -43,7 +43,7 @@ with driver.session() as session:
             """)
     def create_constraint_users(tx):
         return tx.run("""
-            CREATE CONSTRAINT EmployeeId IF NOT EXISTS ON (e:Employee) ASSERT e.id IS UNIQUE
+            CREATE CONSTRAINT EmployeeId IF NOT EXISTS ON (e:Employee) ASSERT e.employeeId IS UNIQUE
             """)
     print("Create constraints")
     session.execute_write(create_constraint_competences)
@@ -52,7 +52,7 @@ with driver.session() as session:
     def create_competences(tx):
         return tx.run("""
             LOAD CSV WITH HEADERS
-            FROM "file:///digital_competences.csv"
+            FROM "file:///competences.csv"
             AS row
             MERGE (c:Competence {competenceId: row.id})
             ON CREATE SET
@@ -83,36 +83,39 @@ with driver.session() as session:
             ON CREATE SET
             e.name = row.name,
             e.surname = row.surname
+            WITH e, row
             MATCH (u:Unit {unitName: row.unit})
             MERGE (e)-[r:IN_UNIT]->(u)
             """)
     print("Create employees")
     session.execute_write(create_employees)
 
-    def load_assignments(tx, filename, user, level, weight):
+    def load_assignments(tx):
         cypher = """
             LOAD CSV WITH HEADERS
             FROM "file:///assignment.csv"
             AS row
-            MATCH (e:Employee {{employeeId: row.employee_id}})
-            MATCH (c:Competence {{competenceId: row.competence_id}})
+            MATCH (e:Employee {employeeId: row.employee_id})
+            MATCH (c:Competence {competenceId: row.competence_id})
             MERGE (e)-[r:HAS_COMPETENCE]->(c)
             ON CREATE SET r.level = row.level
         """
         return tx.run(cypher)
+    print("Load assignments")
     session.execute_write(load_assignments)
     
-    def load_interest(tx, filename, user, level, weight):
+    def load_interest(tx):
         cypher = """
             LOAD CSV WITH HEADERS
             FROM "file:///assignment.csv"
             AS row
-            WITH row WHERE rox.interest = 1
-            MATCH (e:Employee {{employeeId: row.employee_id}})
-            MATCH (c:Competence {{competenceId: row.competence_id}})
+            WITH row WHERE row.interest = "1"
+            MATCH (e:Employee {employeeId: row.employee_id})
+            MATCH (c:Competence {competenceId: row.competence_id})
             MERGE (e)-[r:INTERESTED_IN]->(c)
         """
         return tx.run(cypher)
+    print("Load interest")
     session.execute_write(load_interest)
 
 driver.close()

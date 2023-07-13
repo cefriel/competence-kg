@@ -37,7 +37,7 @@ for i in range(num_employees):
         assignments.append([employee_id, competence_id, level, interest])
 
 # Write employee data to employees.csv
-employees_filename = '../data/employees.csv'
+employees_filename = 'data/employees.csv'
 with open(employees_filename, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(employees_fields)
@@ -46,7 +46,7 @@ with open(employees_filename, 'w', newline='') as csvfile:
 print(f"CSV file '{employees_filename}' has been generated with {num_employees} fictitious employees.")
 
 # Write assignment data to assignment.csv
-assignment_filename = '../data/assignment.csv'
+assignment_filename = 'data/assignment.csv'
 with open(assignment_filename, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(assignment_fields)

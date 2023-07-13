@@ -1,6 +1,6 @@
 version: '3'
 services:
-    kg-cefriel-neo4j: 
+    corso-kg-neo4j: 
       image: neo4j:4.4
       ports:
       # HOST_PORT:CONTAINER_PORT
@@ -10,8 +10,17 @@ services:
       volumes: 
         - ${NEO4J_FOLDER:-./}neo4j/data:/data
         - ${NEO4J_FOLDER:-./}neo4j/logs:/logs
-        - ${NEO4J_FOLDER:-./}import:/var/lib/neo4j/import
+        - ${NEO4J_FOLDER:-./}data:/var/lib/neo4j/import
         - ${NEO4J_FOLDER:-./}neo4j/plugins:/plugins 
       environment:
         NEO4J_AUTH: "neo4j/kgCefriel"
-        NEO4JLABS_PLUGINS: '["graph-data-science"]'
+        NEO4JLABS_PLUGINS: '["apoc","graph-data-science"]'
+    load-neo4j:
+      image: cefriel/corso-kg:load-neo4j
+      container_name: load-neo4j
+      build:
+        context: .
+      volumes:
+        - ./data:/code/data
+      depends_on:
+        - corso-kg-neo4j
