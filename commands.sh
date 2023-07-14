@@ -1,7 +1,8 @@
 #!/bin/sh
 
-echo "Generating data..."
-python generate.py
+# ** Remove comment if you want to re-generate the data **
+# echo "Generating data..."
+# python generate.py
 
 while true;
 do

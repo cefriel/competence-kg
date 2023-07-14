@@ -1,7 +1,20 @@
 version: '3'
 services:
+    corso-kg-postgres:
+      image: postgres
+      container_name: corso-kg-postgres
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: kgCefriel
+        POSTGRES_DB: corso-kg-postgres
+      ports:
+        - 5432:5432
+      volumes:
+        - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+        - ./data:/data
     corso-kg-neo4j: 
       image: neo4j:4.4
+      container_name: corso-kg-neo4j
       ports:
       # HOST_PORT:CONTAINER_PORT
         - "127.0.0.1:7474:7474"
