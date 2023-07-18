@@ -13,133 +13,225 @@
 
 <http://data.europa.eu/snb/dcf/8b23nt41l4> a skos:ConceptScheme .
 
-<kg:assignment/EMPLOYEE_1-1.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ns1:employee <kg:employee/EMPLOYEE_1> ;
-    ns1:level "4"^^xsd:int .
-
 <kg:assignment/EMPLOYEE_1-2.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ns1:employee <kg:employee/EMPLOYEE_1> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_1-2.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ns1:employee <kg:employee/EMPLOYEE_1> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_1-2.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
-    ns1:employee <kg:employee/EMPLOYEE_1> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_1-2.6> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ns1:employee <kg:employee/EMPLOYEE_1> ;
-    ns1:level "3"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_1-3.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+<kg:assignment/EMPLOYEE_1-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
     ns1:employee <kg:employee/EMPLOYEE_1> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_1-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ns1:employee <kg:employee/EMPLOYEE_1> ;
+<kg:assignment/EMPLOYEE_10-1.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
     ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_1-4.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
-    ns1:employee <kg:employee/EMPLOYEE_1> ;
-    ns1:level "1"^^xsd:int,
-        "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_1-4.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ns1:employee <kg:employee/EMPLOYEE_1> ;
-    ns1:level "1"^^xsd:int,
-        "2"^^xsd:int,
-        "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_1-5.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ns1:employee <kg:employee/EMPLOYEE_1> ;
-    ns1:level "3"^^xsd:int,
-        "4"^^xsd:int .
+<kg:assignment/EMPLOYEE_10-1.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_10-2.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ns1:employee <kg:employee/EMPLOYEE_10> ;
-    ns1:level "2"^^xsd:int,
-        "3"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_10-2.5> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+<kg:assignment/EMPLOYEE_10-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ns1:employee <kg:employee/EMPLOYEE_10> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-2.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_10-3.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ns1:employee <kg:employee/EMPLOYEE_10> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-3.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-3.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_10-4.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-4.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-4.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-5.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-5.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-5.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_10-5.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ns1:employee <kg:employee/EMPLOYEE_10> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-1.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
     ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_11-2.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ns1:employee <kg:employee/EMPLOYEE_11> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-2.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-3.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_11-3.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
     ns1:employee <kg:employee/EMPLOYEE_11> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_11-3.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ns1:employee <kg:employee/EMPLOYEE_11> ;
     ns1:level "1"^^xsd:int .
 
+<kg:assignment/EMPLOYEE_11-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "3"^^xsd:int .
+
 <kg:assignment/EMPLOYEE_11-4.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ns1:employee <kg:employee/EMPLOYEE_11> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-5.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_11-5.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-5.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
     ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_11-5.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ns1:employee <kg:employee/EMPLOYEE_11> ;
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_12-1.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ns1:employee <kg:employee/EMPLOYEE_12> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_12-1.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_12> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_12-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ns1:employee <kg:employee/EMPLOYEE_12> ;
+    ns1:level "4"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_12-2.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ns1:employee <kg:employee/EMPLOYEE_12> ;
-    ns1:level "3"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_12-2.5> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+<kg:assignment/EMPLOYEE_12-2.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ns1:employee <kg:employee/EMPLOYEE_12> ;
-    ns1:level "1"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_12-2.6> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ns1:employee <kg:employee/EMPLOYEE_12> ;
-    ns1:level "1"^^xsd:int,
-        "2"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_12-3.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
@@ -154,101 +246,162 @@
 <kg:assignment/EMPLOYEE_12-3.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ns1:employee <kg:employee/EMPLOYEE_12> ;
-    ns1:level "3"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_12-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ns1:employee <kg:employee/EMPLOYEE_12> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_12-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_12> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_12-4.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ns1:employee <kg:employee/EMPLOYEE_12> ;
     ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_12-4.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+<kg:assignment/EMPLOYEE_12-4.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ns1:employee <kg:employee/EMPLOYEE_12> ;
-    ns1:level "3"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_12-5.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+<kg:assignment/EMPLOYEE_12-5.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
     ns1:employee <kg:employee/EMPLOYEE_12> ;
-    ns1:level "2"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_12-5.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ns1:employee <kg:employee/EMPLOYEE_12> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_13-1.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_13> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_13-2.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ns1:employee <kg:employee/EMPLOYEE_13> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_13-2.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ns1:employee <kg:employee/EMPLOYEE_13> ;
-    ns1:level "4"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_13-2.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ns1:employee <kg:employee/EMPLOYEE_13> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_13-2.5> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ns1:employee <kg:employee/EMPLOYEE_13> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_13-2.6> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ns1:employee <kg:employee/EMPLOYEE_13> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_13-3.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ns1:employee <kg:employee/EMPLOYEE_13> ;
-    ns1:level "2"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_13-4.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+<kg:assignment/EMPLOYEE_13-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ns1:employee <kg:employee/EMPLOYEE_13> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_13-5.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+<kg:assignment/EMPLOYEE_13-4.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ns1:employee <kg:employee/EMPLOYEE_13> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_13-5.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ns1:employee <kg:employee/EMPLOYEE_13> ;
     ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_13-5.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+<kg:assignment/EMPLOYEE_13-5.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ns1:employee <kg:employee/EMPLOYEE_13> ;
-    ns1:level "1"^^xsd:int,
-        "2"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_14-1.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-1.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-2.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
     ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-2.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-3.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-3.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_14-3.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ns1:employee <kg:employee/EMPLOYEE_14> ;
-    ns1:level "3"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_14-4.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ns1:employee <kg:employee/EMPLOYEE_14> ;
-    ns1:level "2"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_14-4.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ns1:employee <kg:employee/EMPLOYEE_14> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-4.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_14-4.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ns1:employee <kg:employee/EMPLOYEE_14> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_14-5.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
@@ -258,172 +411,72 @@
 <kg:assignment/EMPLOYEE_14-5.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ns1:employee <kg:employee/EMPLOYEE_14> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_14-5.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ns1:employee <kg:employee/EMPLOYEE_14> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_14-5.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ns1:employee <kg:employee/EMPLOYEE_14> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_15-1.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ns1:employee <kg:employee/EMPLOYEE_15> ;
     ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_15-2.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+<kg:assignment/EMPLOYEE_15-1.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_15> ;
-    ns1:level "1"^^xsd:int,
-        "3"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_15-3.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
-    ns1:employee <kg:employee/EMPLOYEE_15> ;
-    ns1:level "1"^^xsd:int,
-        "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_15-3.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
-    ns1:employee <kg:employee/EMPLOYEE_15> ;
-    ns1:level "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_15-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+<kg:assignment/EMPLOYEE_15-2.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ns1:employee <kg:employee/EMPLOYEE_15> ;
     ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_15-3.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
     ns1:employee <kg:employee/EMPLOYEE_15> ;
-    ns1:level "3"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_15-4.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ns1:employee <kg:employee/EMPLOYEE_15> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_15-4.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
-    ns1:employee <kg:employee/EMPLOYEE_15> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_15-4.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ns1:employee <kg:employee/EMPLOYEE_15> ;
-    ns1:level "1"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_15-5.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ns1:employee <kg:employee/EMPLOYEE_15> ;
-    ns1:level "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_15-5.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ns1:employee <kg:employee/EMPLOYEE_15> ;
-    ns1:level "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_16-2.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ns1:employee <kg:employee/EMPLOYEE_16> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_16-2.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
-    ns1:employee <kg:employee/EMPLOYEE_16> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_16-5.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ns1:employee <kg:employee/EMPLOYEE_16> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_16-5.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ns1:employee <kg:employee/EMPLOYEE_16> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_17-2.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
-    ns1:employee <kg:employee/EMPLOYEE_17> ;
-    ns1:level "1"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_17-2.5> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ns1:employee <kg:employee/EMPLOYEE_17> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_17-2.6> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
-    ns1:employee <kg:employee/EMPLOYEE_17> ;
     ns1:level "3"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_17-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ns1:employee <kg:employee/EMPLOYEE_17> ;
-    ns1:level "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_17-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_17> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_17-4.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ns1:employee <kg:employee/EMPLOYEE_17> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_17-5.2> a ns1:EmployeeCompetence ;
+<kg:assignment/EMPLOYEE_15-5.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ns1:employee <kg:employee/EMPLOYEE_15> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_16-5.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ns1:employee <kg:employee/EMPLOYEE_16> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_17-2.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ns1:employee <kg:employee/EMPLOYEE_17> ;
     ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_18-1.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "1"^^xsd:int,
-        "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_18-2.2> a ns1:EmployeeCompetence ;
+<kg:assignment/EMPLOYEE_17-2.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ns1:employee <kg:employee/EMPLOYEE_17> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_18-1.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "2"^^xsd:int,
-        "3"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_18-2.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "1"^^xsd:int,
-        "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_18-2.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
-    ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_18-3.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
-    ns1:employee <kg:employee/EMPLOYEE_18> ;
     ns1:level "3"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_18-3.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+<kg:assignment/EMPLOYEE_18-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "2"^^xsd:int,
-        "4"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_18-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_18-4.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
@@ -433,69 +486,26 @@
 <kg:assignment/EMPLOYEE_18-4.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_18-4.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_18-5.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "3"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_18-5.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ns1:employee <kg:employee/EMPLOYEE_18> ;
-    ns1:level "2"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_19-1.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ns1:employee <kg:employee/EMPLOYEE_19> ;
-    ns1:level "1"^^xsd:int .
+<kg:assignment/EMPLOYEE_18-5.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ns1:employee <kg:employee/EMPLOYEE_18> ;
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_19-1.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_19> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_19-2.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ns1:employee <kg:employee/EMPLOYEE_19> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_19-2.5> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ns1:employee <kg:employee/EMPLOYEE_19> ;
-    ns1:level "2"^^xsd:int,
-        "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_19-2.6> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
-    ns1:employee <kg:employee/EMPLOYEE_19> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_19-3.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
-    ns1:employee <kg:employee/EMPLOYEE_19> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_19-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_19> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_19-5.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ns1:employee <kg:employee/EMPLOYEE_19> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_2-1.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ns1:employee <kg:employee/EMPLOYEE_2> ;
     ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_2-2.2> a ns1:EmployeeCompetence ;
@@ -506,828 +516,951 @@
 <kg:assignment/EMPLOYEE_2-2.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ns1:employee <kg:employee/EMPLOYEE_2> ;
-    ns1:level "1"^^xsd:int,
-        "4"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_2-2.5> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ns1:employee <kg:employee/EMPLOYEE_2> ;
     ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_2-2.6> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+<kg:assignment/EMPLOYEE_2-4.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ns1:employee <kg:employee/EMPLOYEE_2> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_2-3.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
-    ns1:employee <kg:employee/EMPLOYEE_2> ;
-    ns1:level "2"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_2-3.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
-    ns1:employee <kg:employee/EMPLOYEE_2> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_2-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_2> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_2-4.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ns1:employee <kg:employee/EMPLOYEE_2> ;
-    ns1:level "4"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_2-5.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ns1:employee <kg:employee/EMPLOYEE_2> ;
-    ns1:level "1"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_2-5.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ns1:employee <kg:employee/EMPLOYEE_2> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-1.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "2"^^xsd:int,
-        "3"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_20-1.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-2.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "3"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_20-2.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-2.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "3"^^xsd:int,
-        "4"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-2.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "4"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-2.5> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-3.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-3.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-4.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
     ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_20-5.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-5.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-5.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_20-5.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ns1:employee <kg:employee/EMPLOYEE_20> ;
-    ns1:level "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_21-1.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+<kg:assignment/EMPLOYEE_21-1.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_21> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_21-2.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ns1:employee <kg:employee/EMPLOYEE_21> ;
-    ns1:level "2"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_21-2.5> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+<kg:assignment/EMPLOYEE_21-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ns1:employee <kg:employee/EMPLOYEE_21> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_21-2.6> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
-    ns1:employee <kg:employee/EMPLOYEE_21> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_21-3.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
     ns1:employee <kg:employee/EMPLOYEE_21> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_21-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_21> ;
     ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_21-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ns1:employee <kg:employee/EMPLOYEE_21> ;
-    ns1:level "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_21-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_21> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_21-4.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
-    ns1:employee <kg:employee/EMPLOYEE_21> ;
-    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_21-4.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ns1:employee <kg:employee/EMPLOYEE_21> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_21-5.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ns1:employee <kg:employee/EMPLOYEE_21> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_21-5.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ns1:employee <kg:employee/EMPLOYEE_21> ;
     ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_21-5.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ns1:employee <kg:employee/EMPLOYEE_21> ;
-    ns1:level "3"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_22-2.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+<kg:assignment/EMPLOYEE_22-1.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ns1:employee <kg:employee/EMPLOYEE_22> ;
-    ns1:level "3"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_22-2.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+<kg:assignment/EMPLOYEE_22-1.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_22> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_22-2.6> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+<kg:assignment/EMPLOYEE_22-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ns1:employee <kg:employee/EMPLOYEE_22> ;
     ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_22-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ns1:employee <kg:employee/EMPLOYEE_22> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_22-4.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ns1:employee <kg:employee/EMPLOYEE_22> ;
-    ns1:level "1"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_22-4.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ns1:employee <kg:employee/EMPLOYEE_22> ;
     ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_22-5.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+<kg:assignment/EMPLOYEE_22-4.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
     ns1:employee <kg:employee/EMPLOYEE_22> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_23-2.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
-    ns1:employee <kg:employee/EMPLOYEE_23> ;
-    ns1:level "1"^^xsd:int .
+<kg:assignment/EMPLOYEE_22-5.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ns1:employee <kg:employee/EMPLOYEE_22> ;
+    ns1:level "3"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_23-3.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
-    ns1:employee <kg:employee/EMPLOYEE_23> ;
-    ns1:level "3"^^xsd:int,
-        "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_23-3.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
-    ns1:employee <kg:employee/EMPLOYEE_23> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_23-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+<kg:assignment/EMPLOYEE_23-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ns1:employee <kg:employee/EMPLOYEE_23> ;
     ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_23-4.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+<kg:assignment/EMPLOYEE_23-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ns1:employee <kg:employee/EMPLOYEE_23> ;
     ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_23-5.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ns1:employee <kg:employee/EMPLOYEE_23> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_24-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_24> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_24-5.3> a ns1:EmployeeCompetence ;
+<kg:assignment/EMPLOYEE_23-5.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ns1:employee <kg:employee/EMPLOYEE_23> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_24-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ns1:employee <kg:employee/EMPLOYEE_24> ;
-    ns1:level "4"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_25-1.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ns1:employee <kg:employee/EMPLOYEE_25> ;
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-1.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_25-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ns1:employee <kg:employee/EMPLOYEE_25> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_25-2.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ns1:employee <kg:employee/EMPLOYEE_25> ;
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-2.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_25-2.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+<kg:assignment/EMPLOYEE_25-2.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "3"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_25-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ns1:employee <kg:employee/EMPLOYEE_25> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-2.6> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-3.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "1"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-3.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-3.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_25-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ns1:employee <kg:employee/EMPLOYEE_25> ;
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-4.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-4.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-4.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-4.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-5.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-5.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "2"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_25-5.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ns1:employee <kg:employee/EMPLOYEE_25> ;
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_25-5.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ns1:employee <kg:employee/EMPLOYEE_25> ;
-    ns1:level "1"^^xsd:int,
-        "3"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_26-3.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+<kg:assignment/EMPLOYEE_26-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ns1:employee <kg:employee/EMPLOYEE_26> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_26-4.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ns1:employee <kg:employee/EMPLOYEE_26> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_26-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_26> ;
-    ns1:level "1"^^xsd:int,
-        "3"^^xsd:int .
+<kg:assignment/EMPLOYEE_27-1.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_27-1.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_27> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_27-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_27-2.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ns1:employee <kg:employee/EMPLOYEE_27> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_27-2.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ns1:employee <kg:employee/EMPLOYEE_27> ;
     ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_27-3.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+<kg:assignment/EMPLOYEE_27-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_27-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_27-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_27-3.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_27-3.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_27-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_27-4.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ns1:employee <kg:employee/EMPLOYEE_27> ;
     ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_27-4.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ns1:employee <kg:employee/EMPLOYEE_27> ;
-    ns1:level "3"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_27-4.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
     ns1:employee <kg:employee/EMPLOYEE_27> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_27-5.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
     ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_27-5.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_27-5.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ns1:employee <kg:employee/EMPLOYEE_27> ;
     ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-1.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_28-1.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
     ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-2.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-2.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_28-3.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-3.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
     ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-4.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-5.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-5.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_28-5.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ns1:employee <kg:employee/EMPLOYEE_28> ;
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_29-1.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ns1:employee <kg:employee/EMPLOYEE_29> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_29-1.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_29> ;
-    ns1:level "2"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_29-2.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+<kg:assignment/EMPLOYEE_29-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ns1:employee <kg:employee/EMPLOYEE_29> ;
     ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_29-2.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ns1:employee <kg:employee/EMPLOYEE_29> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_29-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ns1:employee <kg:employee/EMPLOYEE_29> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_29-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ns1:employee <kg:employee/EMPLOYEE_29> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_29-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ns1:employee <kg:employee/EMPLOYEE_29> ;
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_29-3.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ns1:employee <kg:employee/EMPLOYEE_29> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_29-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+<kg:assignment/EMPLOYEE_29-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
     ns1:employee <kg:employee/EMPLOYEE_29> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_29-4.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ns1:employee <kg:employee/EMPLOYEE_29> ;
-    ns1:level "1"^^xsd:int,
-        "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_29-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_29> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_29-4.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ns1:employee <kg:employee/EMPLOYEE_29> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_29-5.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ns1:employee <kg:employee/EMPLOYEE_29> ;
-    ns1:level "2"^^xsd:int,
-        "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_29-5.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ns1:employee <kg:employee/EMPLOYEE_29> ;
     ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_3-1.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ns1:employee <kg:employee/EMPLOYEE_3> ;
+<kg:assignment/EMPLOYEE_29-4.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ns1:employee <kg:employee/EMPLOYEE_29> ;
     ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_29-5.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ns1:employee <kg:employee/EMPLOYEE_29> ;
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_3-1.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ns1:employee <kg:employee/EMPLOYEE_3> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_3-2.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+<kg:assignment/EMPLOYEE_3-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ns1:employee <kg:employee/EMPLOYEE_3> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_3-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ns1:employee <kg:employee/EMPLOYEE_3> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_3-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ns1:employee <kg:employee/EMPLOYEE_3> ;
     ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_3-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ns1:employee <kg:employee/EMPLOYEE_3> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_3-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ns1:employee <kg:employee/EMPLOYEE_3> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_3-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_3> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_3-4.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ns1:employee <kg:employee/EMPLOYEE_3> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_3-4.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ns1:employee <kg:employee/EMPLOYEE_3> ;
+    ns1:level "4"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_30-1.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_30-2.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "1"^^xsd:int,
-        "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_30-2.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "3"^^xsd:int,
-        "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_30-2.6> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
-    ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "3"^^xsd:int,
-        "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_30-3.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+<kg:assignment/EMPLOYEE_30-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ns1:employee <kg:employee/EMPLOYEE_30> ;
     ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_30-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+<kg:assignment/EMPLOYEE_30-4.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "2"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_30-3.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
-    ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_30-4.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_30-4.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "2"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_30-5.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_30-5.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "1"^^xsd:int,
-        "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_30-5.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ns1:employee <kg:employee/EMPLOYEE_30> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_4-1.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+<kg:assignment/EMPLOYEE_4-2.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ns1:employee <kg:employee/EMPLOYEE_4> ;
-    ns1:level "4"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_4-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+<kg:assignment/EMPLOYEE_4-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ns1:employee <kg:employee/EMPLOYEE_4> ;
     ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_4-4.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+<kg:assignment/EMPLOYEE_4-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ns1:employee <kg:employee/EMPLOYEE_4> ;
-    ns1:level "2"^^xsd:int,
-        "3"^^xsd:int .
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_4-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ns1:employee <kg:employee/EMPLOYEE_4> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_4-3.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ns1:employee <kg:employee/EMPLOYEE_4> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_4-3.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ns1:employee <kg:employee/EMPLOYEE_4> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_4-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_4> ;
+    ns1:level "3"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_4-5.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ns1:employee <kg:employee/EMPLOYEE_4> ;
     ns1:level "4"^^xsd:int .
 
+<kg:assignment/EMPLOYEE_4-5.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ns1:employee <kg:employee/EMPLOYEE_4> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-1.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-2.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "5"^^xsd:int .
+
 <kg:assignment/EMPLOYEE_5-2.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-2.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-3.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-3.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-3.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-3.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
     ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-4.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-4.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-4.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-5.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-5.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "1"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-5.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_5-5.4> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ns1:employee <kg:employee/EMPLOYEE_5> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_6-1.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ns1:employee <kg:employee/EMPLOYEE_6> ;
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_6-1.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ns1:employee <kg:employee/EMPLOYEE_6> ;
-    ns1:level "1"^^xsd:int,
-        "2"^^xsd:int,
-        "4"^^xsd:int .
+    ns1:level "3"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_6-2.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+<kg:assignment/EMPLOYEE_6-2.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ns1:employee <kg:employee/EMPLOYEE_6> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_6-2.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
-    ns1:employee <kg:employee/EMPLOYEE_6> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_6-3.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
-    ns1:employee <kg:employee/EMPLOYEE_6> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_6-3.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
-    ns1:employee <kg:employee/EMPLOYEE_6> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_6-4.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ns1:employee <kg:employee/EMPLOYEE_6> ;
-    ns1:level "4"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_6-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_6> ;
-    ns1:level "1"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_6-5.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ns1:employee <kg:employee/EMPLOYEE_6> ;
-    ns1:level "2"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_7-1.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ns1:employee <kg:employee/EMPLOYEE_7> ;
     ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_6-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ns1:employee <kg:employee/EMPLOYEE_6> ;
+    ns1:level "3"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_7-1.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ns1:employee <kg:employee/EMPLOYEE_7> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_7-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ns1:employee <kg:employee/EMPLOYEE_7> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_7-2.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ns1:employee <kg:employee/EMPLOYEE_7> ;
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_7-2.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ns1:employee <kg:employee/EMPLOYEE_7> ;
-    ns1:level "4"^^xsd:int,
-        "5"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_7-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+<kg:assignment/EMPLOYEE_7-2.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ns1:employee <kg:employee/EMPLOYEE_7> ;
-    ns1:level "3"^^xsd:int .
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_7-2.5> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ns1:employee <kg:employee/EMPLOYEE_7> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_7-2.6> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ns1:employee <kg:employee/EMPLOYEE_7> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_7-3.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ns1:employee <kg:employee/EMPLOYEE_7> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_7-3.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ns1:employee <kg:employee/EMPLOYEE_7> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_7-4.1> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_7> ;
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_7-4.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ns1:employee <kg:employee/EMPLOYEE_7> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_7-5.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+<kg:assignment/EMPLOYEE_7-5.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ns1:employee <kg:employee/EMPLOYEE_7> ;
-    ns1:level "3"^^xsd:int .
+    ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_8-1.2> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ns1:employee <kg:employee/EMPLOYEE_8> ;
-    ns1:level "5"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_8-1.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+<kg:assignment/EMPLOYEE_8-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ns1:employee <kg:employee/EMPLOYEE_8> ;
-    ns1:level "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_8-2.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ns1:employee <kg:employee/EMPLOYEE_8> ;
-    ns1:level "1"^^xsd:int,
-        "3"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_8-2.5> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ns1:employee <kg:employee/EMPLOYEE_8> ;
-    ns1:level "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_8-3.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
-    ns1:employee <kg:employee/EMPLOYEE_8> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_8-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ns1:employee <kg:employee/EMPLOYEE_8> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_8-4.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ns1:employee <kg:employee/EMPLOYEE_8> ;
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_8-4.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ns1:employee <kg:employee/EMPLOYEE_8> ;
+    ns1:level "5"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_8-4.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ns1:employee <kg:employee/EMPLOYEE_8> ;
     ns1:level "2"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_8-5.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
     ns1:employee <kg:employee/EMPLOYEE_8> ;
+    ns1:level "2"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_8-5.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ns1:employee <kg:employee/EMPLOYEE_8> ;
     ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_8-5.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ns1:employee <kg:employee/EMPLOYEE_8> ;
-    ns1:level "2"^^xsd:int,
-        "4"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_9-1.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+<kg:assignment/EMPLOYEE_9-1.3> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "4"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_9-2.1> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "4"^^xsd:int .
+
+<kg:assignment/EMPLOYEE_9-2.2> a ns1:EmployeeCompetence ;
+    ns1:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ns1:employee <kg:employee/EMPLOYEE_9> ;
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_9-2.3> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_9-3.1> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
-    ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_9-3.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "4"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_9-4.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "1"^^xsd:int .
+    ns1:level "5"^^xsd:int .
 
 <kg:assignment/EMPLOYEE_9-4.4> a ns1:EmployeeCompetence ;
     ns1:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
     ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "2"^^xsd:int .
+    ns1:level "1"^^xsd:int .
 
-<kg:assignment/EMPLOYEE_9-5.2> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "1"^^xsd:int,
-        "5"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_9-5.3> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "3"^^xsd:int .
-
-<kg:assignment/EMPLOYEE_9-5.4> a ns1:EmployeeCompetence ;
-    ns1:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ns1:employee <kg:employee/EMPLOYEE_9> ;
-    ns1:level "1"^^xsd:int,
-        "2"^^xsd:int .
-
-<kg:employee/EMPLOYEE_5> a foaf:Person ;
+<kg:employee/EMPLOYEE_16> a foaf:Person ;
     foaf:member <kg:unit/Sales> ;
-    foaf:name "David" ;
+    foaf:name "Michael" ;
     foaf:surname "Miller" .
 
 <kg:employee/EMPLOYEE_24> a foaf:Person ;
-    foaf:member <kg:unit/Engineering> ;
+    foaf:member <kg:unit/Sales> ;
+    foaf:name "Michael" ;
+    foaf:surname "Miller" .
+
+<kg:employee/EMPLOYEE_26> a foaf:Person ;
+    foaf:member <kg:unit/Finance> ;
     foaf:name "David" ;
+    foaf:surname "Wilson" .
+
+<kg:employee/EMPLOYEE_17> a foaf:Person ;
+    foaf:member <kg:unit/Human%20Resources> ;
+    foaf:name "Michael" ;
     foaf:surname "Harris" .
 
-<kg:employee/EMPLOYEE_28> a foaf:Person ;
-    foaf:member <kg:unit/Operations> ;
-    foaf:name "Daniel" ;
+<kg:employee/EMPLOYEE_19> a foaf:Person ;
+    foaf:member <kg:unit/Engineering> ;
+    foaf:name "Michael" ;
+    foaf:surname "Smith" .
+
+<kg:employee/EMPLOYEE_20> a foaf:Person ;
+    foaf:member <kg:unit/Finance> ;
+    foaf:name "Emma" ;
     foaf:surname "Wilson" .
 
 <kg:unit/Marketing> a foaf:Group ;
     foaf:title "Marketing" .
 
-<kg:employee/EMPLOYEE_26> a foaf:Person ;
-    foaf:member <kg:unit/Finance> ;
-    foaf:name "Michael" ;
-    foaf:surname "Taylor" .
-
-<kg:employee/EMPLOYEE_3> a foaf:Person ;
-    foaf:member <kg:unit/Engineering> ;
-    foaf:name "Olivia" ;
-    foaf:surname "Clark" .
-
-<kg:employee/EMPLOYEE_10> a foaf:Person ;
-    foaf:member <kg:unit/Finance> ;
-    foaf:name "Jane" ;
-    foaf:surname "Wilson" .
-
-<kg:employee/EMPLOYEE_16> a foaf:Person ;
-    foaf:member <kg:unit/Marketing> ;
-    foaf:name "David" ;
-    foaf:surname "Smith" .
-
-<kg:employee/EMPLOYEE_4> a foaf:Person ;
+<kg:employee/EMPLOYEE_1> a foaf:Person ;
     foaf:member <kg:unit/Operations> ;
-    foaf:name "John" ;
-    foaf:surname "Smith" .
-
-<kg:unit/Sales> a foaf:Group ;
-    foaf:title "Sales" .
-
-<http://data.europa.eu/snb/dcf/4s23kdq383> a skos:ConceptScheme .
-
-<kg:employee/EMPLOYEE_11> a foaf:Person ;
-    foaf:member <kg:unit/Human%20Resources> ;
-    foaf:name "David" ;
-    foaf:surname "Lee" .
-
-<kg:employee/EMPLOYEE_7> a foaf:Person ;
-    foaf:member <kg:unit/Operations> ;
-    foaf:name "Emma" ;
-    foaf:surname "Davis" .
-
-<kg:unit/Human%20Resources> a foaf:Group ;
-    foaf:title "Human Resources" .
-
-<kg:employee/EMPLOYEE_22> a foaf:Person ;
-    foaf:member <kg:unit/Sales> ;
-    foaf:name "John" ;
-    foaf:surname "Johnson" .
-
-<kg:employee/EMPLOYEE_23> a foaf:Person ;
-    foaf:member <kg:unit/Sales> ;
     foaf:name "Jane" ;
     foaf:surname "Brown" .
 
-<kg:unit/Engineering> a foaf:Group ;
-    foaf:title "Engineering" .
+<kg:employee/EMPLOYEE_23> a foaf:Person ;
+    foaf:member <kg:unit/Human%20Resources> ;
+    foaf:name "Emily" ;
+    foaf:surname "Lee" .
 
 <kg:unit/Operations> a foaf:Group ;
     foaf:title "Operations" .
 
-<http://data.europa.eu/snb/dcf/0690r7o8r2> a skos:ConceptScheme .
-
-<kg:employee/EMPLOYEE_17> a foaf:Person ;
+<kg:employee/EMPLOYEE_2> a foaf:Person ;
     foaf:member <kg:unit/Sales> ;
-    foaf:name "Daniel" ;
-    foaf:surname "Davis" .
+    foaf:name "John" ;
+    foaf:surname "Wilson" .
 
-<kg:employee/EMPLOYEE_27> a foaf:Person ;
+<kg:employee/EMPLOYEE_30> a foaf:Person ;
+    foaf:member <kg:unit/Human%20Resources> ;
+    foaf:name "Jane" ;
+    foaf:surname "Taylor" .
+
+<kg:employee/EMPLOYEE_6> a foaf:Person ;
+    foaf:member <kg:unit/Finance> ;
+    foaf:name "Olivia" ;
+    foaf:surname "Smith" .
+
+<kg:employee/EMPLOYEE_15> a foaf:Person ;
+    foaf:member <kg:unit/Finance> ;
+    foaf:name "Daniel" ;
+    foaf:surname "Johnson" .
+
+<kg:employee/EMPLOYEE_9> a foaf:Person ;
+    foaf:member <kg:unit/Sales> ;
+    foaf:name "Michael" ;
+    foaf:surname "Lee" .
+
+<kg:unit/Engineering> a foaf:Group ;
+    foaf:title "Engineering" .
+
+<kg:unit/Sales> a foaf:Group ;
+    foaf:title "Sales" .
+
+<kg:employee/EMPLOYEE_18> a foaf:Person ;
     foaf:member <kg:unit/Engineering> ;
-    foaf:name "Emily" ;
-    foaf:surname "Miller" .
+    foaf:name "Andrew" ;
+    foaf:surname "Lee" .
 
 <kg:unit/Finance> a foaf:Group ;
     foaf:title "Finance" .
 
-<http://data.europa.eu/snb/dcf/9i6ta81748> a skos:ConceptScheme .
+<kg:unit/Human%20Resources> a foaf:Group ;
+    foaf:title "Human Resources" .
 
-<kg:employee/EMPLOYEE_14> a foaf:Person ;
-    foaf:member <kg:unit/Operations> ;
-    foaf:name "Jane" ;
-    foaf:surname "Smith" .
-
-<kg:employee/EMPLOYEE_19> a foaf:Person ;
+<kg:employee/EMPLOYEE_13> a foaf:Person ;
     foaf:member <kg:unit/Engineering> ;
+    foaf:name "Jane" ;
+    foaf:surname "Brown" .
+
+<kg:employee/EMPLOYEE_22> a foaf:Person ;
+    foaf:member <kg:unit/Human%20Resources> ;
     foaf:name "John" ;
     foaf:surname "Johnson" .
 
-<kg:employee/EMPLOYEE_6> a foaf:Person ;
-    foaf:member <kg:unit/Engineering> ;
-    foaf:name "Emily" ;
+<kg:employee/EMPLOYEE_8> a foaf:Person ;
+    foaf:member <kg:unit/Human%20Resources> ;
+    foaf:name "Daniel" ;
+    foaf:surname "Johnson" .
+
+<http://data.europa.eu/snb/dcf/sq0c9q6116> a skos:ConceptScheme .
+
+<http://data.europa.eu/snb/dcf/u69o196gu6> a skos:ConceptScheme .
+
+<kg:employee/EMPLOYEE_21> a foaf:Person ;
+    foaf:member <kg:unit/Operations> ;
+    foaf:name "David" ;
+    foaf:surname "Miller" .
+
+<kg:employee/EMPLOYEE_3> a foaf:Person ;
+    foaf:member <kg:unit/Human%20Resources> ;
+    foaf:name "John" ;
     foaf:surname "Davis" .
+
+<kg:employee/EMPLOYEE_4> a foaf:Person ;
+    foaf:member <kg:unit/Engineering> ;
+    foaf:name "John" ;
+    foaf:surname "Davis" .
+
+<http://data.europa.eu/snb/dcf/00b51s9rc5> a skos:ConceptScheme .
+
+<http://data.europa.eu/snb/dcf/13z458t54u> a skos:ConceptScheme .
+
+<http://data.europa.eu/snb/dcf/o9e8s72z21> a skos:ConceptScheme .
+
+<http://data.europa.eu/snb/dcf/0690r7o8r2> a skos:ConceptScheme .
+
+<http://data.europa.eu/snb/dcf/2mi55kl065> a skos:ConceptScheme .
+
+<http://data.europa.eu/snb/dcf/9i6ta81748> a skos:ConceptScheme .
 
 <http://data.europa.eu/snb/dcf/1dz4n8r554> a skos:ConceptScheme .
 
@@ -1335,98 +1468,73 @@
 
 <http://data.europa.eu/snb/dcf/99vvo91542> a skos:ConceptScheme .
 
-<http://data.europa.eu/snb/dcf/y2s2861s9p> a skos:ConceptScheme .
-
-<kg:employee/EMPLOYEE_8> a foaf:Person ;
+<kg:employee/EMPLOYEE_7> a foaf:Person ;
     foaf:member <kg:unit/Operations> ;
-    foaf:name "Michael" ;
-    foaf:surname "Brown" .
-
-<http://data.europa.eu/snb/dcf/7d4t7002v7> a skos:ConceptScheme .
-
-<http://data.europa.eu/snb/dcf/aa985fr035> a skos:ConceptScheme .
-
-<kg:employee/EMPLOYEE_1> a foaf:Person ;
-    foaf:member <kg:unit/Human%20Resources> ;
-    foaf:name "Michael" ;
-    foaf:surname "Johnson" .
-
-<kg:employee/EMPLOYEE_13> a foaf:Person ;
-    foaf:member <kg:unit/Finance> ;
-    foaf:name "John" ;
-    foaf:surname "Miller" .
-
-<kg:employee/EMPLOYEE_21> a foaf:Person ;
-    foaf:member <kg:unit/Operations> ;
-    foaf:name "Emily" ;
-    foaf:surname "Brown" .
-
-<kg:employee/EMPLOYEE_29> a foaf:Person ;
-    foaf:member <kg:unit/Human%20Resources> ;
     foaf:name "Olivia" ;
-    foaf:surname "Miller" .
+    foaf:surname "Lee" .
 
-<kg:employee/EMPLOYEE_9> a foaf:Person ;
-    foaf:member <kg:unit/Finance> ;
-    foaf:name "John" ;
-    foaf:surname "Smith" .
-
-<http://data.europa.eu/snb/dcf/13z458t54u> a skos:ConceptScheme .
+<http://data.europa.eu/snb/dcf/1b043jw49b> a skos:ConceptScheme .
 
 <http://data.europa.eu/snb/dcf/mg54my1580> a skos:ConceptScheme .
 
-<http://data.europa.eu/snb/dcf/o9e8s72z21> a skos:ConceptScheme .
+<http://data.europa.eu/snb/dcf/y2s2861s9p> a skos:ConceptScheme .
 
-<http://data.europa.eu/snb/dcf/u69o196gu6> a skos:ConceptScheme .
-
-<kg:employee/EMPLOYEE_12> a foaf:Person ;
-    foaf:member <kg:unit/Human%20Resources> ;
-    foaf:name "John" ;
-    foaf:surname "Johnson" .
-
-<kg:employee/EMPLOYEE_15> a foaf:Person ;
-    foaf:member <kg:unit/Human%20Resources> ;
-    foaf:name "David" ;
-    foaf:surname "Brown" .
-
-<kg:employee/EMPLOYEE_2> a foaf:Person ;
-    foaf:member <kg:unit/Finance> ;
+<kg:employee/EMPLOYEE_29> a foaf:Person ;
+    foaf:member <kg:unit/Marketing> ;
     foaf:name "Michael" ;
-    foaf:surname "Smith" .
-
-<http://data.europa.eu/snb/dcf/00b51s9rc5> a skos:ConceptScheme .
+    foaf:surname "Lee" .
 
 <http://data.europa.eu/snb/dcf/3bgx2a6278> a skos:ConceptScheme .
 
+<http://data.europa.eu/snb/dcf/4s23kdq383> a skos:ConceptScheme .
+
+<http://data.europa.eu/snb/dcf/7d4t7002v7> a skos:ConceptScheme .
+
 <http://data.europa.eu/snb/dcf/8ys96p08p4> a skos:ConceptScheme .
 
-<http://data.europa.eu/snb/dcf/9a5d39t62b> a skos:ConceptScheme .
-
-<http://data.europa.eu/snb/dcf/sq0c9q6116> a skos:ConceptScheme .
-
-<kg:employee/EMPLOYEE_18> a foaf:Person ;
-    foaf:member <kg:unit/Finance> ;
-    foaf:name "Michael" ;
+<kg:employee/EMPLOYEE_12> a foaf:Person ;
+    foaf:member <kg:unit/Human%20Resources> ;
+    foaf:name "Jane" ;
     foaf:surname "Smith" .
 
-<kg:employee/EMPLOYEE_30> a foaf:Person ;
-    foaf:member <kg:unit/Marketing> ;
-    foaf:name "David" ;
-    foaf:surname "Wilson" .
+<kg:employee/EMPLOYEE_28> a foaf:Person ;
+    foaf:member <kg:unit/Sales> ;
+    foaf:name "John" ;
+    foaf:surname "Taylor" .
 
 <http://data.europa.eu/snb/dcf/3h9eab1489> a skos:ConceptScheme .
 
-<kg:employee/EMPLOYEE_25> a foaf:Person ;
-    foaf:member <kg:unit/Engineering> ;
-    foaf:name "Olivia" ;
-    foaf:surname "Johnson" .
+<http://data.europa.eu/snb/dcf/aa985fr035> a skos:ConceptScheme .
 
-<http://data.europa.eu/snb/dcf/2mi55kl065> a skos:ConceptScheme .
-
-<kg:employee/EMPLOYEE_20> a foaf:Person ;
+<kg:employee/EMPLOYEE_11> a foaf:Person ;
     foaf:member <kg:unit/Finance> ;
-    foaf:name "Michael" ;
+    foaf:name "Emily" ;
     foaf:surname "Taylor" .
 
-<http://data.europa.eu/snb/dcf/1b043jw49b> a skos:ConceptScheme .
+<kg:employee/EMPLOYEE_27> a foaf:Person ;
+    foaf:member <kg:unit/Engineering> ;
+    foaf:name "Olivia" ;
+    foaf:surname "Davis" .
+
+<http://data.europa.eu/snb/dcf/9a5d39t62b> a skos:ConceptScheme .
+
+<kg:employee/EMPLOYEE_10> a foaf:Person ;
+    foaf:member <kg:unit/Marketing> ;
+    foaf:name "Andrew" ;
+    foaf:surname "Johnson" .
+
+<kg:employee/EMPLOYEE_25> a foaf:Person ;
+    foaf:member <kg:unit/Finance> ;
+    foaf:name "Daniel" ;
+    foaf:surname "Davis" .
+
+<kg:employee/EMPLOYEE_5> a foaf:Person ;
+    foaf:member <kg:unit/Sales> ;
+    foaf:name "Jane" ;
+    foaf:surname "Miller" .
+
+<kg:employee/EMPLOYEE_14> a foaf:Person ;
+    foaf:member <kg:unit/Finance> ;
+    foaf:name "Emily" ;
+    foaf:surname "Wilson" .
 
