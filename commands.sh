@@ -16,4 +16,4 @@ do
         echo "Neo4j not ready yet"
         continue
     fi
-done 
+done

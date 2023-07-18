@@ -1,0 +1,60 @@
+base: http://www.cefriel.com/corso-kg/mappings/
+
+prefixes:
+  kg: http://www.cefriel.com/corso-kg/data/
+  ex: http://www.cefriel.com/corso-kg/schema/
+  skos: http://www.w3.org/2004/02/skos/core#
+
+mappings:
+  unit:
+    sources:
+      - ['./../data/employees.csv~csv']
+    s: 'kg:unit/$(unit)'
+    po:
+      - [a, foaf:Group]
+      - [foaf:title, $(unit)]
+  employee:
+    sources:
+      - ['./../data/employees.csv~csv']
+    s: 'kg:employee/$(id)'
+    po:
+      - [a, foaf:Person]
+      - [foaf:name, $(name)]
+      - [foaf:surname, $(surname)]
+      - p: foaf:member
+        o:
+          mapping: unit
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(unit)]
+              - [str2, $(unit)]
+  competences:
+    sources:
+      - ['./../data/competences-iri.csv~csv']
+    s: http://data.europa.eu/snb/dcf/$(iri)
+    po:
+      - [a, skos:ConceptScheme]
+  assignment:
+    sources:
+      - ['./../data/assignment.csv~csv']
+    s: kg:assignment/$(employee_id)-$(competence_id)
+    po:
+      - [a, ex:EmployeeCompetence]
+      - [ex:level, $(level), xsd:int]
+      - p: ex:employee
+        o:
+          mapping: employee
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(employee_id)]
+              - [str2, $(id)]
+      - p: ex:competence
+        o:
+          mapping: competences
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(competence_id)]
+              - [str2, $(id)]

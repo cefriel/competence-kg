@@ -12,13 +12,12 @@ services:
       volumes:
         - ./init.sql:/docker-entrypoint-initdb.d/init.sql
         - ./data:/data
-    corso-kg-neo4j: 
+    corso-kg-neo4j:
       image: neo4j:4.4
       container_name: corso-kg-neo4j
       ports:
-      # HOST_PORT:CONTAINER_PORT
-        - "127.0.0.1:7474:7474"
-        - "127.0.0.1:7687:7687"
+        - 7474:7474
+        - 7687:7687
       restart: on-failure
       volumes: 
         - ${NEO4J_FOLDER:-./}neo4j/data:/data
@@ -28,12 +27,10 @@ services:
       environment:
         NEO4J_AUTH: "neo4j/kgCefriel"
         NEO4JLABS_PLUGINS: '["apoc","graph-data-science"]'
-    load-neo4j:
-      image: cefriel/corso-kg:load-neo4j
-      container_name: load-neo4j
-      build:
-        context: .
+    corso-kg-notebook:
+      image: jupyter/datascience-notebook
       volumes:
-        - ./data:/code/data
-      depends_on:
-        - corso-kg-neo4j
+        - ./:/home/jovyan/work
+      ports:
+        - 8888:8888
+      command: "start-notebook.sh"
