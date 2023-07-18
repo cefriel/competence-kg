@@ -60,7 +60,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://www.cefriel.com/corso-kg/data/employee/{id}~iri";
+		rr:template "http://www.cefriel.com/corso-kg/data/employee/{id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [

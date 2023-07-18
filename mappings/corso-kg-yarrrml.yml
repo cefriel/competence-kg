@@ -16,7 +16,7 @@ mappings:
   employee:
     sources:
       - ['./../data/employees.csv~csv']
-    s: 'http://www.cefriel.com/corso-kg/data/employee/$(id)~iri'
+    s: 'http://www.cefriel.com/corso-kg/data/employee/$(id)'
     po:
       - [a, foaf:Person]
       - [foaf:name, $(name)]
