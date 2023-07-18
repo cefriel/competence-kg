@@ -9,14 +9,14 @@ mappings:
   unit:
     sources:
       - ['./../data/employees.csv~csv']
-    s: 'kg:unit/$(unit)'
+    s: 'http://www.cefriel.com/corso-kg/data/unit/$(unit)'
     po:
       - [a, foaf:Group]
       - [foaf:title, $(unit)]
   employee:
     sources:
       - ['./../data/employees.csv~csv']
-    s: 'kg:employee/$(id)'
+    s: 'http://www.cefriel.com/corso-kg/data/employee/$(id)~iri'
     po:
       - [a, foaf:Person]
       - [foaf:name, $(name)]
@@ -32,29 +32,19 @@ mappings:
   competences:
     sources:
       - ['./../data/competences-iri.csv~csv']
-    s: http://data.europa.eu/snb/dcf/$(iri)
+    s: 'http://data.europa.eu/snb/dcf/$(iri)'
     po:
       - [a, skos:ConceptScheme]
   assignment:
     sources:
       - ['./../data/assignment.csv~csv']
-    s: kg:assignment/$(employee_id)-$(competence_id)
+    s: 'http://www.cefriel.com/corso-kg/data/assignment/$(employee_id)-$(competence_id)'
     po:
       - [a, ex:EmployeeCompetence]
       - [ex:level, $(level), xsd:int]
       - p: ex:employee
         o:
-          mapping: employee
-          condition:
-            function: equal
-            parameters:
-              - [str1, $(employee_id)]
-              - [str2, $(id)]
+          - function: join(employee, equal($(employee_id),$(id)))
       - p: ex:competence
         o:
-          mapping: competences
-          condition:
-            function: equal
-            parameters:
-              - [str1, $(competence_id)]
-              - [str2, $(id)]
+          - function: join(competences, equal($(competence_id),$(id)))

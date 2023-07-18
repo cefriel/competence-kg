@@ -27,7 +27,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "kg:unit/{unit}";
+		rr:template "http://www.cefriel.com/corso-kg/data/unit/{unit}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -60,7 +60,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "kg:employee/{id}";
+		rr:template "http://www.cefriel.com/corso-kg/data/employee/{id}~iri";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -140,7 +140,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "kg:assignment/{employee_id}-{competence_id}";
+		rr:template "http://www.cefriel.com/corso-kg/data/assignment/{employee_id}-{competence_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
