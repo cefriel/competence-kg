@@ -1,2 +1,3 @@
 neo4j
-*/.ipynb_checkpoints
+credentials.json
+**/.ipynb_checkpoints
