@@ -19,6 +19,7 @@ mappings:
     s: 'http://www.cefriel.com/corso-kg/data/employee/$(id)'
     po:
       - [a, foaf:Person]
+      - [a, ex:Employee]
       - [foaf:name, $(name)]
       - [foaf:surname, $(surname)]
       - p: foaf:member
@@ -34,7 +35,7 @@ mappings:
       - ['./../data/competences-iri.csv~csv']
     s: 'http://data.europa.eu/snb/dcf/$(iri)'
     po:
-      - [a, skos:ConceptScheme]
+      - [a, ex:Competence]
   assignment:
     sources:
       - ['./../data/assignment.csv~csv']

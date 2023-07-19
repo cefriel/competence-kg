@@ -75,6 +75,16 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant ex:Employee;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
 			rr:constant foaf:name;
 		];
 		rr:objectMap [
@@ -126,7 +136,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant skos:ConceptScheme;
+			rr:constant ex:Competence;
 		];
 	].
 
