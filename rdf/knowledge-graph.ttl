@@ -12,30 +12,65 @@
 
 <http://data.europa.eu/snb/dcf/8b23nt41l4> a ex:Competence .
 
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-1.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> ;
+    ex:level "1"^^xsd:int .
+
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-2.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> ;
     ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> ;
     ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-3.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> ;
     ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_1-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> ;
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-1.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "1"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-1.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "1"^^xsd:int .
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-2.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
@@ -45,252 +80,142 @@
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-2.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "4"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-2.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "3"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "2"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-2.6> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "1"^^xsd:int .
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-3.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-3.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-3.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "2"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-3.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "3"^^xsd:int .
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-4.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-4.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
     ex:level "2"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-4.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-4.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "5"^^xsd:int .
-
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-5.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-5.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "1"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-5.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "5"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_10-5.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> ;
-    ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-1.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-1.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
     ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-2.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-2.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-2.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-2.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-3.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-3.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-3.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-3.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
     ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-4.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-4.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-5.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-5.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-5.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_11-5.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> ;
-    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-1.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
     ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-1.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "3"^^xsd:int .
-
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-1.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "4"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-2.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "1"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-2.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
     ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "1"^^xsd:int .
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-3.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "2"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-3.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-3.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-3.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-4.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-4.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "2"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-4.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
     ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-5.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "1"^^xsd:int .
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_12-5.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> ;
-    ex:level "1"^^xsd:int .
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-1.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-2.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> ;
     ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> ;
-    ex:level "3"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> ;
-    ex:level "1"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-3.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
@@ -300,137 +225,72 @@
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-4.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> ;
-    ex:level "3"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-4.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> ;
     ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-5.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> ;
-    ex:level "5"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_13-5.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-1.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
     ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-1.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-1.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-2.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-2.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-2.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-2.5> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-3.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-3.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-3.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-3.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-4.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-4.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-4.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-4.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-5.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-5.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-5.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_14-5.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> ;
     ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-1.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
     ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-2.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-2.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-2.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
     ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-2.6> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-3.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
@@ -440,107 +300,357 @@
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-4.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
-    ex:level "3"^^xsd:int .
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-5.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_15-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-1.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
     ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-2.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-2.6> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-4.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-5.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
-    ex:level "3"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_17-2.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_16-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_17-1.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_17> ;
     ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_17-2.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_17-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_17> ;
     ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-1.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_17-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_17> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_17-2.6> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_17> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_17-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_17> ;
     ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-2.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_17-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_17> ;
     ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_17-4.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_17> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-2.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> ;
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-2.6> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> ;
-    ex:level "5"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-4.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-4.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-5.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> ;
     ex:level "2"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_18-5.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> ;
-    ex:level "3"^^xsd:int .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-1.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-1.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
     ex:level "3"^^xsd:int .
 
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "4"^^xsd:int .
+
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-2.5> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-2.6> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
     ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-4.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_19-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-1.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-2.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
     ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
     ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-4.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
-    ex:level "2"^^xsd:int .
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-5.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_2-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> ;
     ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-1.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-1.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-2.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-1.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
     ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-2.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-4.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_20-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> ;
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-2.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
@@ -552,523 +662,673 @@
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
     ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-3.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-2.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
-    ex:level "5"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-4.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-4.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
     ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-5.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-2.6> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
     ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-4.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-5.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
-    ex:level "5"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_21-5.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> ;
-    ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-1.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
-    ex:level "1"^^xsd:int .
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-1.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
-    ex:level "4"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-1.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
-    ex:level "5"^^xsd:int .
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-2.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-2.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
     ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-2.6> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-4.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
-    ex:level "1"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-4.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
-    ex:level "2"^^xsd:int .
+    ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-4.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-4.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
     ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-5.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_22-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-1.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-1.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-2.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
     ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-2.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
     ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-2.6> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
     ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-4.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-4.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-5.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
-    ex:level "4"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_24-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_23-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_24-1.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_24> ;
     ex:level "2"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-1.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "3"^^xsd:int .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_24-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_24> ;
+    ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-1.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "2"^^xsd:int .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_24-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_24> ;
+    ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-1.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "3"^^xsd:int .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_24-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_24> ;
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-2.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-2.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-2.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-2.5> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
     ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-2.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "2"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-3.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "2"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-3.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-3.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-3.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-4.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-4.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-4.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-4.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-5.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-5.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
     ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-5.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
-    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_25-5.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-2.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
     ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
     ex:level "2"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-1.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
     ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-1.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "1"^^xsd:int .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-4.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
+    ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-1.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "2"^^xsd:int .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_26-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> ;
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-2.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "1"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-2.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-2.5> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-2.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
     ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-3.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
     ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-3.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "1"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-4.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
     ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-4.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-4.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "5"^^xsd:int .
-
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-4.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "5"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-5.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "3"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-5.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_27-5.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> ;
-    ex:level "2"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-1.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-1.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "2"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-1.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "1"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-2.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "4"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-2.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "1"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-2.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-2.5> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "5"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-3.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "4"^^xsd:int .
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-3.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "5"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-3.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-4.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-4.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-5.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-5.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_28-5.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> ;
-    ex:level "3"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-1.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "3"^^xsd:int .
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-1.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "1"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-1.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-2.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
     ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-2.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
     ex:level "2"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-2.5> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-2.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "3"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-2.6> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "3"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-3.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "2"^^xsd:int .
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-3.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "3"^^xsd:int .
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-4.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "4"^^xsd:int .
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-4.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "5"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-4.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "2"^^xsd:int .
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_29-5.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> ;
-    ex:level "5"^^xsd:int .
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-1.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-1.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
-    ex:level "1"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-2.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
-    ex:level "1"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-2.5> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-3.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-4.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
-    ex:level "5"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-4.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
-    ex:level "2"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-4.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
     ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-1.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_3-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-2.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-2.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> ;
     ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-2.5> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> ;
-    ex:level "1"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-4.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> ;
-    ex:level "1"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-4.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> ;
     ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_30-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-1.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-1.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-2.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
     ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-2.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
-    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-2.5> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
-    ex:level "3"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-3.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-2.6> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
-    ex:level "3"^^xsd:int .
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-3.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
-    ex:level "2"^^xsd:int .
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-4.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-4.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-4.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_4-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> ;
     ex:level "3"^^xsd:int .
 
@@ -1085,30 +1345,10 @@
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-1.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-1.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-2.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
     ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-2.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-2.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-2.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
     ex:level "4"^^xsd:int .
 
@@ -1117,170 +1357,190 @@
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
     ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "4"^^xsd:int .
-
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-3.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "4"^^xsd:int .
+    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-3.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
     ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-3.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "2"^^xsd:int .
-
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-3.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "1"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-4.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-4.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "3"^^xsd:int .
+    ex:level "4"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-4.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-4.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-5.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "4"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-5.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
     ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-5.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_5-5.4> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> ;
-    ex:level "5"^^xsd:int .
-
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-1.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
-    ex:level "2"^^xsd:int .
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-1.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-1.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
-    ex:level "3"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-2.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
-    ex:level "5"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-2.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
-    ex:level "3"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-1.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
     ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-1.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
-    ex:level "2"^^xsd:int .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "5"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-2.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-2.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
     ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-2.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-2.6> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
     ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-4.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-4.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-5.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "4"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_6-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> ;
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-2.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-2.5> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
     ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-2.6> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-3.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
-    ex:level "2"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-3.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
-    ex:level "5"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-4.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
-    ex:level "5"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-4.3> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-1.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
     ex:level "5"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_7-5.2> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> ;
-    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-1.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3h9eab1489> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
-    ex:level "1"^^xsd:int .
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-1.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-2.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-2.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-2.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/y2s2861s9p> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
     ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-2.5> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
-    ex:level "4"^^xsd:int .
+    ex:level "1"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-4.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/aa985fr035> ;
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-3.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/u69o196gu6> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
-    ex:level "4"^^xsd:int .
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-3.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/2mi55kl065> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-3.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/0690r7o8r2> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-4.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1b043jw49b> ;
@@ -1292,25 +1552,40 @@
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
     ex:level "2"^^xsd:int .
 
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-4.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "1"^^xsd:int .
+
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-5.1> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/13z458t54u> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
     ex:level "2"^^xsd:int .
 
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "5"^^xsd:int .
+
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-5.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_8-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> ;
+    ex:level "5"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-1.1> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/9i6ta81748> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
     ex:level "1"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-1.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/4s23kdq383> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
-    ex:level "4"^^xsd:int .
-
-<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-2.1> a ex:EmployeeCompetence ;
-    ex:competence <http://data.europa.eu/snb/dcf/8ys96p08p4> ;
-    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
-    ex:level "4"^^xsd:int .
+    ex:level "2"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-2.2> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/9a5d39t62b> ;
@@ -1320,200 +1595,124 @@
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-2.3> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/1dz4n8r554> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
-    ex:level "5"^^xsd:int .
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-2.5> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/99vvo91542> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
+    ex:level "3"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-2.6> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/7d4t7002v7> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
+    ex:level "1"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-3.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/sq0c9q6116> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
+    ex:level "2"^^xsd:int .
+
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-4.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/mg54my1580> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
+    ex:level "3"^^xsd:int .
 
 <http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-4.4> a ex:EmployeeCompetence ;
     ex:competence <http://data.europa.eu/snb/dcf/o9e8s72z21> ;
     ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
-    ex:level "1"^^xsd:int .
+    ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Sales> ;
-    foaf:name "Michael" ;
-    foaf:surname "Miller" .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-5.2> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/00b51s9rc5> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
+    ex:level "4"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_24> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Sales> ;
-    foaf:name "Michael" ;
-    foaf:surname "Miller" .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-5.3> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/3bgx2a6278> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
+    ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
-    foaf:name "David" ;
-    foaf:surname "Wilson" .
+<http://www.cefriel.com/corso-kg/data/assignment/EMPLOYEE_9-5.4> a ex:EmployeeCompetence ;
+    ex:competence <http://data.europa.eu/snb/dcf/860966ekgo> ;
+    ex:employee <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> ;
+    ex:level "3"^^xsd:int .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_17> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> ;
-    foaf:name "Michael" ;
-    foaf:surname "Harris" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
-    foaf:name "Michael" ;
-    foaf:surname "Smith" .
+    foaf:name "David" ;
+    foaf:surname "Taylor" .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> a ex:Employee,
         foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
-    foaf:name "Emma" ;
-    foaf:surname "Wilson" .
-
-<http://www.cefriel.com/corso-kg/data/unit/Marketing> a foaf:Group ;
-    foaf:title "Marketing" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Operations> ;
-    foaf:name "Jane" ;
-    foaf:surname "Brown" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
     foaf:name "Emily" ;
-    foaf:surname "Lee" .
+    foaf:surname "Taylor" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Sales> ;
+    foaf:name "Sophia" ;
+    foaf:surname "Taylor" .
 
 <http://www.cefriel.com/corso-kg/data/unit/Operations> a foaf:Group ;
     foaf:title "Operations" .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> a foaf:Group ;
+    foaf:title "Human Resources" .
+
+<http://www.cefriel.com/corso-kg/data/unit/Marketing> a foaf:Group ;
+    foaf:title "Marketing" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Sales> ;
-    foaf:name "John" ;
-    foaf:surname "Wilson" .
+    foaf:name "Emily" ;
+    foaf:surname "Brown" .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> ;
-    foaf:name "Jane" ;
-    foaf:surname "Taylor" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_24> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
     foaf:name "Olivia" ;
-    foaf:surname "Smith" .
+    foaf:surname "Wilson" .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> a ex:Employee,
         foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
-    foaf:name "Daniel" ;
-    foaf:surname "Johnson" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Sales> ;
-    foaf:name "Michael" ;
-    foaf:surname "Lee" .
-
-<http://www.cefriel.com/corso-kg/data/unit/Engineering> a foaf:Group ;
-    foaf:title "Engineering" .
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Operations> ;
+    foaf:name "Emily" ;
+    foaf:surname "Wilson" .
 
 <http://www.cefriel.com/corso-kg/data/unit/Sales> a foaf:Group ;
     foaf:title "Sales" .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_18> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_17> a ex:Employee,
         foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
-    foaf:name "Andrew" ;
-    foaf:surname "Lee" .
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
+    foaf:name "David" ;
+    foaf:surname "Miller" .
 
 <http://www.cefriel.com/corso-kg/data/unit/Finance> a foaf:Group ;
     foaf:title "Finance" .
 
-<http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> a foaf:Group ;
-    foaf:title "Human Resources" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
-    foaf:name "Jane" ;
-    foaf:surname "Brown" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> ;
-    foaf:name "John" ;
-    foaf:surname "Johnson" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> ;
-    foaf:name "Daniel" ;
-    foaf:surname "Johnson" .
-
-<http://data.europa.eu/snb/dcf/sq0c9q6116> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/u69o196gu6> a ex:Competence .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Operations> ;
-    foaf:name "David" ;
-    foaf:surname "Miller" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> ;
-    foaf:name "John" ;
+    foaf:name "Sophia" ;
     foaf:surname "Davis" .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_30> a ex:Employee,
         foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
-    foaf:name "John" ;
-    foaf:surname "Davis" .
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
+    foaf:name "Emma" ;
+    foaf:surname "Clark" .
 
-<http://data.europa.eu/snb/dcf/00b51s9rc5> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/13z458t54u> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/o9e8s72z21> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/0690r7o8r2> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/2mi55kl065> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/9i6ta81748> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/1dz4n8r554> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/860966ekgo> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/99vvo91542> a ex:Competence .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_7> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Operations> ;
-    foaf:name "Olivia" ;
-    foaf:surname "Lee" .
-
-<http://data.europa.eu/snb/dcf/1b043jw49b> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/mg54my1580> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/y2s2861s9p> a ex:Competence .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Marketing> ;
-    foaf:name "Michael" ;
-    foaf:surname "Lee" .
+    foaf:name "David" ;
+    foaf:surname "Taylor" .
 
-<http://data.europa.eu/snb/dcf/3bgx2a6278> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/4s23kdq383> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/7d4t7002v7> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/8ys96p08p4> a ex:Competence .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_1> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> ;
     foaf:name "Jane" ;
@@ -1522,48 +1721,159 @@
 <http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_28> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Sales> ;
-    foaf:name "John" ;
-    foaf:surname "Taylor" .
+    foaf:name "Michael" ;
+    foaf:surname "Johnson" .
 
-<http://data.europa.eu/snb/dcf/3h9eab1489> a ex:Competence .
-
-<http://data.europa.eu/snb/dcf/aa985fr035> a ex:Competence .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_11> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
-    foaf:name "Emily" ;
-    foaf:surname "Taylor" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_27> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_3> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
     foaf:name "Olivia" ;
     foaf:surname "Davis" .
 
-<http://data.europa.eu/snb/dcf/9a5d39t62b> a ex:Competence .
+<http://www.cefriel.com/corso-kg/data/unit/Engineering> a foaf:Group ;
+    foaf:title "Engineering" .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_13> a ex:Employee,
         foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Marketing> ;
-    foaf:name "Andrew" ;
-    foaf:surname "Johnson" .
-
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_25> a ex:Employee,
-        foaf:Person ;
-    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Sales> ;
     foaf:name "Daniel" ;
     foaf:surname "Davis" .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_5> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_21> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
+    foaf:name "Olivia" ;
+    foaf:surname "Clark" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_26> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Sales> ;
     foaf:name "Jane" ;
-    foaf:surname "Miller" .
+    foaf:surname "Brown" .
 
-<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_14> a ex:Employee,
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_2> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
+    foaf:name "David" ;
+    foaf:surname "Brown" .
+
+<http://data.europa.eu/snb/dcf/y2s2861s9p> a ex:Competence .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_12> a ex:Employee,
         foaf:Person ;
     foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
-    foaf:name "Emily" ;
+    foaf:name "David" ;
+    foaf:surname "Johnson" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_9> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
+    foaf:name "Andrew" ;
     foaf:surname "Wilson" .
+
+<http://data.europa.eu/snb/dcf/7d4t7002v7> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/aa985fr035> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/o9e8s72z21> a ex:Competence .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_19> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> ;
+    foaf:name "David" ;
+    foaf:surname "Harris" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_20> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Operations> ;
+    foaf:name "Sophia" ;
+    foaf:surname "Harris" .
+
+<http://data.europa.eu/snb/dcf/9i6ta81748> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/mg54my1580> a ex:Competence .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_15> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Sales> ;
+    foaf:name "Emma" ;
+    foaf:surname "Johnson" .
+
+<http://data.europa.eu/snb/dcf/1b043jw49b> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/2mi55kl065> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/3h9eab1489> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/sq0c9q6116> a ex:Competence .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_10> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
+    foaf:name "Michael" ;
+    foaf:surname "Wilson" .
+
+<http://data.europa.eu/snb/dcf/00b51s9rc5> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/9a5d39t62b> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/u69o196gu6> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/0690r7o8r2> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/13z458t54u> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/1dz4n8r554> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/4s23kdq383> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/860966ekgo> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/99vvo91542> a ex:Competence .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_29> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
+    foaf:name "Daniel" ;
+    foaf:surname "Brown" .
+
+<http://data.europa.eu/snb/dcf/3bgx2a6278> a ex:Competence .
+
+<http://data.europa.eu/snb/dcf/8ys96p08p4> a ex:Competence .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_16> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
+    foaf:name "David" ;
+    foaf:surname "Davis" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_4> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Engineering> ;
+    foaf:name "David" ;
+    foaf:surname "Brown" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_8> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Human%20Resources> ;
+    foaf:name "David" ;
+    foaf:surname "Miller" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_22> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Marketing> ;
+    foaf:name "Sophia" ;
+    foaf:surname "Johnson" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_6> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Marketing> ;
+    foaf:name "Jane" ;
+    foaf:surname "Davis" .
+
+<http://www.cefriel.com/corso-kg/data/employee/EMPLOYEE_23> a ex:Employee,
+        foaf:Person ;
+    foaf:member <http://www.cefriel.com/corso-kg/data/unit/Finance> ;
+    foaf:name "Jane" ;
+    foaf:surname "Taylor" .
 
