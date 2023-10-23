@@ -24,12 +24,7 @@ mappings:
       - [foaf:surname, $(surname)]
       - p: foaf:member
         o:
-          mapping: unit
-          condition:
-            function: equal
-            parameters:
-              - [str1, $(unit)]
-              - [str2, $(unit)]
+          - function: join(unit, equal($(unit),$(unit)))
   competences:
     sources:
       - ['./../data/competences-iri.csv~csv']
@@ -49,3 +44,15 @@ mappings:
       - p: ex:competence
         o:
           - function: join(competences, equal($(competence_id),$(id)))
+      - p: ex:hasInterest
+        o:
+          - function: grel:controls_if
+            parameters:
+              - parameter: grel:bool_b
+                value: "'1' == '$(interest)'"
+              - parameter: grel:any_true
+                value: "true"
+                type: xsd:boolean
+              - parameter: grel:any_false
+                value: "false"
+                type: xsd:boolean

@@ -18,6 +18,34 @@
 @base <http://example.com/ns#>.
 
 
+<function_assignment_0> a fnml:Execution;
+	fnml:function grel:controls_if ; 
+	fnml:input
+		[
+			a fnml:Input;
+			fnml:parameter grel:bool_b;
+			fnml:valueMap [
+				a fnml:ValueMap;
+				rr:template "'1' == '{interest}'";
+			];
+		],
+		[
+			a fnml:Input;
+			fnml:parameter grel:any_true;
+			fnml:valueMap [
+				a fnml:ValueMap;
+				rr:constant true;
+			];
+		],
+		[
+			a fnml:Input;
+			fnml:parameter grel:any_false;
+			fnml:valueMap [
+				a fnml:ValueMap;
+				rr:constant false;
+			];
+		].
+
 <unit_0> a rr:TriplesMap;
 
 	rml:logicalSource [
@@ -199,6 +227,16 @@
 				rr:child "competence_id";
 				rr:parent "id";
 			]; 
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant ex:hasInterest;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			fnml:execution <function_assignment_0>;
 		];
 	].
 
