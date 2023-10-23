@@ -173,7 +173,7 @@
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "./../data/assignment.csv";
+		rml:source "./../data/assignment-iri.csv";
 		rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
@@ -204,6 +204,16 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
+			rr:constant ex:competence;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:template "http://data.europa.eu/snb/dcf/{competence_id}";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
 			rr:constant ex:employee;
 		];
 		rr:objectMap [ 
@@ -211,20 +221,6 @@
 			rr:parentTriplesMap <employee_0>;
 			rr:joinCondition [
 				rr:child "employee_id";
-				rr:parent "id";
-			]; 
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant ex:competence;
-		];
-		rr:objectMap [ 
-			a rr:RefObjectMap;
-			rr:parentTriplesMap <competences_0>;
-			rr:joinCondition [
-				rr:child "competence_id";
 				rr:parent "id";
 			]; 
 		];

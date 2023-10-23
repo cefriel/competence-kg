@@ -33,17 +33,15 @@ mappings:
       - [a, ex:Competence]
   assignment:
     sources:
-      - ['./../data/assignment.csv~csv']
+      - ['./../data/assignment-iri.csv~csv']
     s: 'http://www.cefriel.com/corso-kg/data/assignment/$(employee_id)-$(competence_id)'
     po:
       - [a, ex:EmployeeCompetence]
       - [ex:level, $(level), xsd:int]
+      - [ex:competence, 'http://data.europa.eu/snb/dcf/$(competence_id)']
       - p: ex:employee
         o:
           - function: join(employee, equal($(employee_id),$(id)))
-      - p: ex:competence
-        o:
-          - function: join(competences, equal($(competence_id),$(id)))
       - p: ex:hasInterest
         o:
           - function: grel:controls_if
