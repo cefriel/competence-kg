@@ -54,7 +54,9 @@ The graph database is modelled according to the **TODO ontology** defined in the
 
 The `corso-kg-rdf.ipynb` notebook contains the code to construct the knowledge graph and to inspect and query the it. An in-memory database is instantiated using the `rdflib` library and the CSV files in the `data` folder. In this case, the `*-iri.csv` files are considered instead of the `assignment.csv` and `competences.csv` files. Indeed, we leverage the SKOS vocabulary describing the DigComp framework (already [available online](http://publications.europa.eu/resource/dataset/digital-competence-framework)) to enrich the company's graph without having to instantiate from the CSV all the data about the competences. 
 
-The mappings from the CSV files to the ontology are defined using YARRRML, compiled to RML using the `yatter` tool and executed using the `morph-kgc` processor. The `SPARQL` language is used to query the database.
+The mappings from the CSV files to the ontology are defined using YARRRML, compiled to RML using the `yatter` tool and executed using the `morph-kgc` processor. The mappings are available in `mappings` folder. The `SPARQL` language is used to query the database.
+
+The generated RDF graphs are serialised in the Turtle format and saved in the `rdf` folder together with a dump of the DigComp SKOS vocabulary.
 
 ## LangChain QA
 The `corso-kg-langchain.ipynb` notebook provides the code to execute QA (i.e., natural language querying) over the three databases leveraging the `langchain` library and the OpenAI GPT models. The `SQLDatabaseChain`, `GraphCypherQAChain`, `GraphSPARQLQAChain` are used in the code.
