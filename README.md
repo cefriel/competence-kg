@@ -1,24 +1,67 @@
 
-# Other employees having same competences
-MATCH (e:Employee {name:"Jane", surname:"Taylor"})-[:HAS_COMPETENCE]->(c:Competence)<-[:HAS_COMPETENCE]-(oe:Employee) RETURN c.competence, collect(oe.employeeId)
+# corso-kg
 
-# More "similar" employees
+This repository contains the material for the "Knowledge Graph Course" erogated by Cefriel. An example scenario (`The Competence Registry`) is considered to implement and discuss modelling and querying over relational databases, graph databases and triplestores. The main topics are:
+- Relational Databases using Postgres (CSV import and SQL queries)
+- Graph Database using Neo4j (Graph modelling, CSV import and Cypher queries)
+- RDF Database using rdflib (KG construction from CSV file, SPARQL queries)
+- [_Bonus_] Querying using LangChain (Natural language QA using OpenAI and SQLDatabaseChain,GraphCypherQAChain,GraphSPARQLQAChain)
 
-## Neo4j
-MATCH (e:Employee {name:"Jane", surname:"Taylor"})-[:HAS_COMPETENCE]->(c:Competence)<-[:HAS_COMPETENCE]-(oe:Employee) RETURN oe.employeeId, count(c) as num ORDER BY num DESC
+## `The Competence Registry` scenario
 
-docker exec -it corso-kg-postgres psql -U postgres corso-kg-postgres
+A company would like to keep a record of the digital competences possessed by each employee. Each employee is described by their first name, last name, and the department they belong to.
+Each competence defined by the [DigComp](https://joint-research-centre.ec.europa.eu/digcomp/digcomp-framework_en) framework is described through four main fields: identifier, dimension, name, and description.
+Each employee can be associated with one or more competences. For each competence association, the following information can be provided: competence level (from 1 to 5) and the person's interest in gaining/increasing the skill.
 
-## SQL
-WITH jane_competences AS (
-  SELECT competence_id
-  FROM employees
-  JOIN assignment ON employees.id = assignment.employee_id
-  WHERE employees.name = 'Jane' AND employees.surname = 'Wilson'
-)
-SELECT employees.id, employees.name, employees.surname, COUNT(assignment.competence_id) AS num_competences
-FROM employees
-JOIN assignment ON employees.id = assignment.employee_id
-WHERE assignment.competence_id IN (SELECT competence_id FROM jane_competences) AND NOT(employees.name = 'Jane' AND employees.surname = 'Wilson')
-GROUP BY employees.id, employees.name, employees.surname
-ORDER BY num_competences DESC;
+## How to run the code
+The repository defines a `docker-compose.yml` file to run all the databases and the Jupyter notebooks as containers via Docker. The containers can be run all at once or separately.
+
+The notebooks can be executed running the `corso-kg-notebook` container with the command:
+```bash
+docker-compose up --force-recreate corso-kg-notebook
+```
+
+## Data
+The data are randomly generated via the script available in the `notebooks/corso-kg-generate.ipynb` notebook. A constant `seed` is currently defined to always generate the default data contained in the `data` folder.
+
+The files `employees.csv`, `assignment.csv` and `competences.csv` contain the data. The `*-iri.csv` files are generated to support the discussion on the RDF graph.
+
+## Relational Database
+The relational database is modelled according to the ER diagram defined in the `model` folder. The diagram can be edited using the `draw.io` webapp.
+
+An `init.sql` file is defined to initialise a `Postgres` database from the CSV files in the `data` folder. The database can be executed using the command:
+```bash
+docker-compose up --force-recreate corso-kg-postgres
+```
+Note that if the option `--volumes` is not used with the command `docker-compose down` the status of the database is automatically persisted by Docker.
+
+The `corso-kg-postgres.ipynb` notebook contains the code to inspect and query the database using the `SQL` syntax.
+
+## Graph Database
+The graph database is modelled according to the diagram defined in the `model` folder. The diagram can be edited using the `arrows.app` webapp.
+
+The `corso-kg-neo4j.ipynb` notebook contains the code to import the data and to inspect and query the database. A `Neo4j` database is instantiated using the CSV files in the `data` folder and according to the graph model defined. The `Cypher` language is used to query the database.
+
+The database can be executed using the command:
+```bash
+docker-compose up --force-recreate corso-kg-neo4j
+```
+
+The status of the database is automatically persisted in the `neo4j` folder as defined in the `docker-compose.yml` file. The folder can be deleted to erase all the data in the database.
+
+## RDF Database
+The graph database is modelled according to the **TODO ontology** defined in the `model` folder. The ontology reuses the `foaf` vocabulary and adds further classes and properties. The ontology can be visualised using the `WebVOWL` webapp.
+
+The `corso-kg-rdf.ipynb` notebook contains the code to construct the knowledge graph and to inspect and query the it. An in-memory database is instantiated using the `rdflib` library and the CSV files in the `data` folder. In this case, the `*-iri.csv` files are considered instead of the `assignment.csv` and `competences.csv` files. Indeed, we leverage the SKOS vocabulary describing the DigComp framework (already [available online](http://publications.europa.eu/resource/dataset/digital-competence-framework)) to enrich the company's graph without having to instantiate from the CSV all the data about the competences. 
+
+The mappings from the CSV files to the ontology are defined using YARRRML, compiled to RML using the `yatter` tool and executed using the `morph-kgc` processor. The `SPARQL` language is used to query the database.
+
+## LangChain QA
+The `corso-kg-langchain.ipynb` notebook provides the code to execute QA (i.e., natural language querying) over the three databases leveraging the `langchain` library and the OpenAI GPT models. The `SQLDatabaseChain`, `GraphCypherQAChain`, `GraphSPARQLQAChain` are used in the code.
+
+A `credentials.json` file should be provided in the main folder with a valid key for the OpenAI API.
+```
+{
+    "OPENAI_API_KEY": "PUT_HERE_YOUR_KEY"
+}
+```

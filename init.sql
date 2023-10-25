@@ -1,20 +1,21 @@
 CREATE TABLE employees (
-  id TEXT PRIMARY KEY,
-  name TEXT,
-  surname TEXT,
-  unit TEXT
+  id VARCHAR(80) PRIMARY KEY,
+  name VARCHAR(50),
+  surname VARCHAR(50),
+  unit VARCHAR(50)
 );
 CREATE TABLE competences (
-  id TEXT PRIMARY KEY,
-  dimension TEXT,
+  id VARCHAR(80) PRIMARY KEY,
+  dimension INT,
   competence TEXT,
   description TEXT
 );
 CREATE TABLE assignment (
-  employee_id TEXT,
-  competence_id TEXT,
-  level TEXT,
-  interest TEXT,
+  employee_id VARCHAR(80),
+  competence_id VARCHAR(80),
+  level VARCHAR(50),
+  interest VARCHAR(50),
+  PRIMARY KEY (employee_id, competence_id),
   FOREIGN KEY (employee_id) REFERENCES employees(id),
   FOREIGN KEY (competence_id) REFERENCES competences(id)
 );
