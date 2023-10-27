@@ -1,8 +1,8 @@
-base: http://www.cefriel.com/corso-kg/mappings/
+base: https://knowledge.c-innovationhub.com/competence-kg/mappings#
 
 prefixes:
-  kg: http://www.cefriel.com/corso-kg/data/
-  ex: http://www.cefriel.com/corso-kg/schema/
+  kg: https://knowledge.c-innovationhub.com/competence-kg/data#
+  onto: https://knowledge.c-innovationhub.com/competence-kg/schema#
   skos: http://www.w3.org/2004/02/skos/core#
 
 mappings:
@@ -19,7 +19,7 @@ mappings:
     s: 'http://www.cefriel.com/corso-kg/data/employee/$(id)'
     po:
       - [a, foaf:Person]
-      - [a, ex:Employee]
+      - [a, onto:Employee]
       - [foaf:name, $(name)]
       - [foaf:surname, $(surname)]
       - p: foaf:member
@@ -30,19 +30,19 @@ mappings:
       - ['./../data/competences-iri.csv~csv']
     s: 'http://data.europa.eu/snb/dcf/$(iri)'
     po:
-      - [a, ex:Competence]
+      - [a, onto:Competence]
   assignment:
     sources:
       - ['./../data/assignment-iri.csv~csv']
     s: 'http://www.cefriel.com/corso-kg/data/assignment/$(employee_id)-$(competence_id)'
     po:
-      - [a, ex:EmployeeCompetence]
-      - [ex:level, $(level), xsd:int]
-      - [ex:competence, 'http://data.europa.eu/snb/dcf/$(competence_id)']
-      - p: ex:employee
+      - [a, onto:EmployeeCompetence]
+      - [onto:hasCompetenceLevel, $(level), xsd:int]
+      - [onto:hasAssignedCompetence, 'http://data.europa.eu/snb/dcf/$(competence_id)']
+      - p: onto:isAssignedToEmployee
         o:
           - function: join(employee, equal($(employee_id),$(id)))
-      - p: ex:hasInterest
+      - p: onto:hasInterest
         o:
           - function: grel:controls_if
             parameters:

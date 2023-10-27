@@ -1,5 +1,5 @@
-@prefix kg: <http://www.cefriel.com/corso-kg/data/>.
-@prefix ex: <http://www.cefriel.com/corso-kg/schema/>.
+@prefix kg: <https://knowledge.c-innovationhub.com/competence-kg/data#>.
+@prefix onto: <https://knowledge.c-innovationhub.com/competence-kg/schema#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
@@ -107,7 +107,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant ex:Employee;
+			rr:constant onto:Employee;
 		];
 	];
 	rr:predicateObjectMap [
@@ -164,7 +164,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant ex:Competence;
+			rr:constant onto:Competence;
 		];
 	].
 
@@ -187,13 +187,13 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant ex:EmployeeCompetence;
+			rr:constant onto:EmployeeCompetence;
 		];
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant ex:level;
+			rr:constant onto:hasCompetenceLevel;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -204,7 +204,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant ex:competence;
+			rr:constant onto:hasAssignedCompetence;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -214,7 +214,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant ex:employee;
+			rr:constant onto:isAssignedToEmployee;
 		];
 		rr:objectMap [ 
 			a rr:RefObjectMap;
@@ -228,7 +228,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant ex:hasInterest;
+			rr:constant onto:hasInterest;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
