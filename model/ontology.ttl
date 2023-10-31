@@ -1,0 +1,37 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix ckg:  <https://knowledge.c-innovationhub.com/competence-kg/schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+ckg:Competence a owl:Class ;
+	rdfs:label "Competence" .
+
+ckg:Employee a owl:Class;
+	rdfs:label "Employee" ;
+	rdfs:subClassOf foaf:Person .
+	
+ckg:EmployeeCompetence a owl:Class;
+	rdfs:label "Assignment of a Competence to an Employee" .
+	
+ckg:hasAssignedCompetence a owl:ObjectProperty ;  
+	rdfs:label "has competence assigned to employee" ;
+	rdfs:domain ckg:EmployeeCompetence ;
+	rdfs:range ckg:Competence .
+
+ckg:isAssignedToEmployee a owl:ObjectProperty ;
+	rdfs:label "is assigned to employee" ;
+	rdfs:domain ckg:EmployeeCompetence ;
+	rdfs:range ckg:Employee .
+
+ckg:hasInterest a owl:DatatypeProperty ; 
+	rdfs:label "interest of the employee in the competence" ;
+	rdfs:domain ckg:EmployeeCompetence ;
+	rdfs:range xsd:boolean .
+
+ckg:hasCompetenceLevel a owl:DatatypeProperty ;  
+	rdfs:label "level of competence for the employee" ;
+	rdfs:domain ckg:EmployeeCompetence ;
+	rdfs:range xsd:int .
+
