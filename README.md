@@ -50,7 +50,7 @@ docker-compose up --force-recreate competence-kg-neo4j
 The status of the database is automatically persisted in the `neo4j` folder as defined in the `docker-compose.yml` file. The folder can be deleted to erase all the data in the database.
 
 ## RDF Database
-The graph database is modelled according to the ontology `ontology.ttl` defined in the `model` folder. The ontology reuses the `foaf` vocabulary and adds further classes and properties. The ontology can be visualised using the `WebVOWL` webapp.
+The graph database is modelled according to the ontology `ontology.ttl` defined in the `model` folder and available online at [https://knowledge.c-innovationhub.com/competence-kg/schema](https://knowledge.c-innovationhub.com/competence-kg/schema). The ontology reuses the `foaf` vocabulary and adds further classes and properties. The ontology can be visualised using the `WebVOWL` webapp.
 
 The `competence-kg-rdf.ipynb` notebook contains the code to construct the knowledge graph and to inspect and query the it. An in-memory database is instantiated using the `rdflib` library and the CSV files in the `data` folder. In this case, the `*-iri.csv` files are considered instead of the `assignment.csv` and `competences.csv` files. Indeed, we leverage the SKOS vocabulary describing the DigComp framework (already [available online](http://publications.europa.eu/resource/dataset/digital-competence-framework)) to enrich the company's graph without having to instantiate from the CSV all the data about the competences. 
 
