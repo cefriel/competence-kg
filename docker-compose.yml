@@ -1,20 +1,20 @@
 version: '3'
 services:
-    corso-kg-postgres:
+    competence-kg-postgres:
       image: postgres
-      container_name: corso-kg-postgres
+      container_name: competence-kg-postgres
       environment:
         POSTGRES_USER: postgres
         POSTGRES_PASSWORD: kgCefriel
-        POSTGRES_DB: corso-kg-postgres
+        POSTGRES_DB: competence-kg-postgres
       ports:
         - 5432:5432
       volumes:
         - ./init.sql:/docker-entrypoint-initdb.d/init.sql
         - ./data:/data
-    corso-kg-neo4j:
+    competence-kg-neo4j:
       image: neo4j:4.4
-      container_name: corso-kg-neo4j
+      container_name: competence-kg-neo4j
       ports:
         - 7474:7474
         - 7687:7687
@@ -27,7 +27,7 @@ services:
       environment:
         NEO4J_AUTH: "neo4j/kgCefriel"
         NEO4JLABS_PLUGINS: '["apoc","graph-data-science"]'
-    corso-kg-notebook:
+    competence-kg-notebook:
       image: jupyter/datascience-notebook
       volumes:
         - ./:/home/jovyan/work

@@ -9,14 +9,14 @@ mappings:
   unit:
     sources:
       - ['./../data/employees.csv~csv']
-    s: 'http://www.cefriel.com/corso-kg/data/unit/$(unit)'
+    s: 'http://www.cefriel.com/competence-kg/data#Unit-$(unit)'
     po:
       - [a, foaf:Group]
       - [foaf:title, $(unit)]
   employee:
     sources:
       - ['./../data/employees.csv~csv']
-    s: 'http://www.cefriel.com/corso-kg/data/employee/$(id)'
+    s: 'http://www.cefriel.com/competence-kg/data#Employee-$(id)'
     po:
       - [a, foaf:Person]
       - [a, onto:Employee]
@@ -34,7 +34,7 @@ mappings:
   assignment:
     sources:
       - ['./../data/assignment-iri.csv~csv']
-    s: 'http://www.cefriel.com/corso-kg/data/assignment/$(employee_id)-$(competence_id)'
+    s: 'http://www.cefriel.com/competence-kg/data#Assignment-$(employee_id)-$(competence_id)'
     po:
       - [a, onto:EmployeeCompetence]
       - [onto:hasCompetenceLevel, $(level), xsd:int]

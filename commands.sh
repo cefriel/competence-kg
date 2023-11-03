@@ -7,7 +7,7 @@
 while true;
 do
     sleep 5
-    if curl -s -I http://corso-kg-neo4j:7474 | grep -q "200 OK"
+    if curl -s -I http://competence-kg-neo4j:7474 | grep -q "200 OK"
     then
         echo "Loading data in Neo4j..."
         python load.py
