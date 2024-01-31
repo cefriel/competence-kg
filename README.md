@@ -7,6 +7,8 @@ This repository contains the material for the "Knowledge Graphs Course" erogated
 - **RDF Database** using [rdflib](https://pypi.org/project/rdflib/) (KG construction from CSV file, SPARQL queries)
 - [_Bonus_] **Natural language QA** using [LangChain](https://www.langchain.com/) (querying different databases using the OpenAI API)
 
+If you are interested in the course associated with this repository get in contact or send an email to [info@cefriel.com](mailto:info@cefriel.com).
+
 ## The `Competence Registry` scenario
 
 A company would like to keep a record of the digital competences possessed by each employee. Each employee is described by their first name, last name, and the department they belong to.
