@@ -4,7 +4,7 @@
 This repository contains the material for the "Knowledge Graphs Course" erogated by [Cefriel](https://cefriel.com/). An example scenario (`Competence Registry`) is considered to implement and discuss modelling and querying over relational databases, graph databases and triplestores. The main topics are:
 - **Relational Databases** using [Postgres](https://www.postgresql.org/) (CSV import and SQL queries)
 - **Graph Database** using [Neo4j](https://neo4j.com/) (Graph modelling, CSV import and Cypher queries)
-- **RDF Database** using [rdflib](https://pypi.org/project/rdflib/) (KG construction from CSV file, SPARQL queries)
+- **RDF Database** using [RDFLib](https://pypi.org/project/rdflib/) (KG construction from CSV file, SPARQL queries)
 - [_Bonus_] **Natural language QA** using [LangChain](https://www.langchain.com/) (querying different databases using the OpenAI API)
 
 If you are interested in the course associated with this repository get in contact or send an email to [info@cefriel.com](mailto:info@cefriel.com).
@@ -52,11 +52,11 @@ docker-compose up --force-recreate competence-kg-neo4j
 The status of the database is automatically persisted in the `neo4j` folder as defined in the `docker-compose.yml` file. The folder can be deleted to erase all the data in the database.
 
 ## RDF Database
-The graph database is modelled according to the ontology `ontology.ttl` defined in the `model` folder and available online at [https://knowledge.c-innovationhub.com/competence-kg/schema](https://knowledge.c-innovationhub.com/competence-kg/schema). The ontology reuses the `foaf` vocabulary and adds further classes and properties. The ontology can be visualised using the `WebVOWL` webapp. In the `model` folder the file `content-negotiation.sh` shows how different cURL requests return different representations of the ontology.
+The graph database is modelled according to the ontology `ontology.ttl` defined in the `model` folder and available online at [https://knowledge.c-innovationhub.com/competence-kg/schema](https://knowledge.c-innovationhub.com/competence-kg/schema). The ontology reuses the `foaf` vocabulary and adds further classes and properties. The ontology can be visualised using the [WebVOWL](http://vowl.visualdataweb.org/webvowl.html) webapp. In the `model` folder the file `content-negotiation.sh` shows how different cURL requests return different representations of the ontology.
 
-The `competence-kg-rdf.ipynb` notebook contains the code to construct the knowledge graph and to inspect and query the it. An in-memory database is instantiated using the `rdflib` library and the CSV files in the `data` folder. In this case, the `*-iri.csv` files are considered instead of the `assignment.csv` and `competences.csv` files. Indeed, we leverage the SKOS vocabulary describing the DigComp framework (already [available online](http://publications.europa.eu/resource/dataset/digital-competence-framework)) to enrich the company's graph without having to instantiate from the CSV all the data about the competences. 
+The `competence-kg-rdf.ipynb` notebook contains the code to construct the knowledge graph and to inspect and query the it. An in-memory database is instantiated using the [RDFLib](https://pypi.org/project/rdflib/) library and the CSV files in the `data` folder. In this case, the `*-iri.csv` files are considered instead of the `assignment.csv` and `competences.csv` files. Indeed, we leverage the SKOS vocabulary describing the DigComp framework (already [available online](http://publications.europa.eu/resource/dataset/digital-competence-framework)) to enrich the company's graph without having to instantiate from the CSV all the data about the competences. 
 
-The mappings from the CSV files to the ontology are defined using YARRRML, compiled to RML using the `yatter` tool and executed using the `morph-kgc` processor. The mappings are available in `mappings` folder. The `SPARQL` language is used to query the database.
+The mappings from the CSV files to the ontology are defined using YARRRML, compiled to RML using the [yatter](https://github.com/oeg-upm/yatter) tool and executed using the [morph-kgc](https://github.com/morph-kgc/morph-kgc) processor. The mappings are available in `mappings` folder. The `SPARQL` language is used to query the database.
 
 The generated RDF graphs are serialised in the Turtle format and saved in the `rdf` folder together with a dump of the DigComp SKOS vocabulary.
 
