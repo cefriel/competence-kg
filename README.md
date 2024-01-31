@@ -40,7 +40,7 @@ Note that if the option `--volumes` is not used with the command `docker-compose
 The `competence-kg-postgres.ipynb` notebook contains the code to inspect and query the database using the `SQL` syntax.
 
 ## Graph Database
-The graph database is modelled according to the diagram defined in the `model` folder. The diagram can be edited using the `arrows.app` webapp.
+The graph database is modelled according to the diagram defined in the `model` folder. The diagram can be edited using the [arrows.app](https://arrows.app/) webapp.
 
 The `competence-kg-neo4j.ipynb` notebook contains the code to import the data and to inspect and query the database. A `Neo4j` database is instantiated using the CSV files in the `data` folder and according to the graph model defined. The `Cypher` language is used to query the database.
 
