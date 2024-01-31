@@ -4,7 +4,7 @@
 This repository contains the material for the "Knowledge Graphs Course" erogated by [Cefriel](https://cefriel.com/). An example scenario (`Competence Registry`) is considered to implement and discuss modelling and querying over relational databases, graph databases and triplestores. The main topics are:
 - **Relational Databases** using [Postgres](https://www.postgresql.org/) (CSV import and SQL queries)
 - **Graph Database** using [Neo4j](https://neo4j.com/) (Graph modelling, CSV import and Cypher queries)
-- **RDF Database** using [RDFLib](https://pypi.org/project/rdflib/) (KG construction from CSV file, SPARQL queries)
+- **RDF Database** using [RDFLib](https://pypi.org/project/rdflib/) (KG construction from CSV file using [RML](https://rml.io/) via [morph-kgc](https://github.com/morph-kgc/morph-kgc), SPARQL queries)
 - [_Bonus_] **Natural language QA** using [LangChain](https://www.langchain.com/) (querying different databases using the OpenAI API)
 
 If you are interested in the course associated with this repository get in contact or send an email to [info@cefriel.com](mailto:info@cefriel.com).
