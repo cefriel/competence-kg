@@ -71,7 +71,7 @@ A `credentials.json` file should be provided in the main folder with a valid key
 }
 ```
 
-### Contributing
+## Contributing
 
 Before contributing, please read carefully, complete and sign our [Contributor Licence Agreement](https://github.com/cefriel/contributing/blob/main/contributor-license-agreement.pdf). 
 
