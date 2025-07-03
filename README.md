@@ -64,8 +64,15 @@ The generated RDF graphs are serialised in the Turtle format and saved in the `r
 The `competence-kg-langchain.ipynb` notebook provides the code to execute QA (i.e., natural language querying) over the three databases leveraging the `langchain` library and the OpenAI GPT models. The `SQLDatabaseChain`, `GraphCypherQAChain`, `GraphSPARQLQAChain` are used in the code.
 
 A `credentials.json` file should be provided in the main folder with a valid key for the OpenAI API.
+
 ```
 {
     "OPENAI_API_KEY": "PUT_HERE_YOUR_KEY"
 }
 ```
+
+### Contributing
+
+Before contributing, please read carefully, complete and sign our [Contributor Licence Agreement](https://github.com/cefriel/contributing/blob/main/contributor-license-agreement.pdf). 
+
+When contributing to this repository, please first discuss the change you wish to make via issue or any other available method with the repository's owners.
